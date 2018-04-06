@@ -46,7 +46,6 @@ class Linianos
      */
     public function output()
     {
-        $data = array();
         $data = $this->process();
         foreach ($data as $value) {
             echo $value . PHP_EOL;
@@ -54,3 +53,6 @@ class Linianos
         return $data;
     }
 }
+
+$class = new Linianos();
+$class->output();
