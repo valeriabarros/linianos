@@ -1,3 +1,5 @@
+//This one was just for fun :-)
+
 function linianos() { 
     let result = [];
     for (let i = 1; i <= 100; ++i) {
